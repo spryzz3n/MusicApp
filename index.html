@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App UI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c3d367d77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Now Playing Screen -->
+        <div class="player-card now-playing">
+            <div class="header">
+                <div class="back"><i class="fas fa-chevron-down"></i></div>
+                <span>Now playing</span>
+                <div class="menu"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+
+            <div class="album-art">
+                <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2" alt="Album Art">
+            </div>
+
+            <div class="song-info">
+                <h2>Beatz & Jvna - Crazy</h2>
+                <p>NCS Release</p>
+            </div>
+
+            <div class="progress-container">
+                <div class="time">
+                    <span>0:40</span>
+                    <span>3:20</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <div class="play-btn"><i class="fas fa-pause"></i></div>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-retweet"></i>
+            </div>
+        </div>
+
+        <!-- Playlist Screen -->
+        <div class="player-card playlist">
+            <div class="header">
+                <span>Playlist</span>
+                <div class="menu"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+
+            <div class="playlist-header">
+                <i class="fas fa-music"></i> Music list
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+            </div>
+
+            <div class="song-list">
+                <div class="song-item">
+                    <div class="song-thumb">
+                        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="thumb">
+                    </div>
+                    <div class="song-details">
+                        <h4>Harley Bird - Home</h4>
+                        <p>Jordan Schor</p>
+                    </div>
+                    <div class="duration">3:30</div>
+                </div>
+
+                <div class="song-item playing">
+                    <div class="song-thumb">
+                        <img src="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2" alt="thumb">
+                    </div>
+                    <div class="song-details">
+                        <h4>Beatz & Jvna - Crazy</h4>
+                        <p>NCS Release</p>
+                    </div>
+                    <div class="duration">3:20</div>
+                </div>
+
+                <div class="song-item">
+                    <div class="song-thumb">
+                        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4" alt="thumb">
+                    </div>
+                    <div class="song-details">
+                        <h4>Hardwind - Want Me</h4>
+                        <p>Mike Archangelo</p>
+                    </div>
+                    <div class="duration">2:08</div>
+                </div>
+
+                <div class="song-item">
+                    <div class="song-thumb">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f" alt="thumb">
+                    </div>
+                    <div class="song-details">
+                        <h4>Jim - Sun Goes Down</h4>
+                        <p>Jim Yosef x Roy</p>
+                    </div>
+                    <div class="duration">2:40</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
